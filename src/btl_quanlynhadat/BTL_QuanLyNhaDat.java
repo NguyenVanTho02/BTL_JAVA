@@ -4,6 +4,8 @@
  */
 package btl_quanlynhadat;
 
+import quanlynhadat.views.Login;
+
 /**
  *
  * @author nguye
@@ -12,7 +14,7 @@ public class BTL_QuanLyNhaDat {
 
     public static void main(String[] args) {
         java.awt.EventQueue.invokeLater(() -> {
-//            new Login().setVisible(true);
+            new Login().setVisible(true);
         });
     }
     
