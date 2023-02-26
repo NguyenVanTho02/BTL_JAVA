@@ -147,7 +147,7 @@ public class HomeTransactionController {
         try {
             fulllist = getAllTransaction();
         } catch (IOException ex) {
-//            Logger.getLogger(LandTransactionController.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LandTransactionController.class.getName()).log(Level.SEVERE, null, ex);
         }
         for (int i = 0; i < arrchar.length; i++) {
             if (arrchar[i].compareToIgnoreCase(month) == 0) {
