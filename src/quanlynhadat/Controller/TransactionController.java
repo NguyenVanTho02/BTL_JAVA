@@ -4,13 +4,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.text.SimpleDateFormat;
-//import java.util.Date;
+import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import quanlynhadat.Models.Transaction;
 import quanlynhadat.File.HomeTransactionFile;
-//import quanlynhadat.File.LandTransactionFile;
+import quanlynhadat.File.LandTransactionFile;
 
 public class TransactionController {
 
@@ -19,12 +19,12 @@ public class TransactionController {
         List<Transaction> list = new ArrayList<Transaction>();
         List<Transaction> list1 = new ArrayList<Transaction>();
         HomeTransactionFile hf = new HomeTransactionFile();
-//        LandTransactionFile lf = new LandTransactionFile();
-//        try {
-//            list = lf.readLandTransaction();
-//        } catch (IOException ex) {
-//            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        LandTransactionFile lf = new LandTransactionFile();
+        try {
+            list = lf.readLandTransaction();
+        } catch (IOException ex) {
+            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             list1 = hf.readHomeTransaction();
         } catch (IOException ex) {
@@ -43,12 +43,12 @@ public class TransactionController {
         List<Transaction> list1 = new ArrayList<Transaction>();
         List<Transaction> list2 = new ArrayList<Transaction>();
         HomeTransactionFile hf = new HomeTransactionFile();
-//        LandTransactionFile lf = new LandTransactionFile();
-//        try {
-//            list = lf.readLandTransaction();
-//        } catch (IOException ex) {
-//            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        LandTransactionFile lf = new LandTransactionFile();
+        try {
+            list = lf.readLandTransaction();
+        } catch (IOException ex) {
+            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             list1 = hf.readHomeTransaction();
         } catch (IOException ex) {
@@ -71,12 +71,12 @@ public class TransactionController {
         List<Transaction> list1 = new ArrayList<Transaction>();
         List<Transaction> list2 = new ArrayList<Transaction>();
         HomeTransactionFile hf = new HomeTransactionFile();
-//        LandTransactionFile lf = new LandTransactionFile();
-//        try {
-//            list = lf.readLandTransaction();
-//        } catch (IOException ex) {
-//            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        LandTransactionFile lf = new LandTransactionFile();
+        try {
+            list = lf.readLandTransaction();
+        } catch (IOException ex) {
+            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             list1 = hf.readHomeTransaction();
         } catch (IOException ex) {
@@ -98,12 +98,12 @@ public class TransactionController {
         List<Transaction> list1 = new ArrayList<Transaction>();
         List<Transaction> list2 = new ArrayList<Transaction>();
         HomeTransactionFile hf = new HomeTransactionFile();
-//        LandTransactionFile lf = new LandTransactionFile();
-//        try {
-//            list = lf.readLandTransaction();
-//        } catch (IOException ex) {
-//            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        LandTransactionFile lf = new LandTransactionFile();
+        try {
+            list = lf.readLandTransaction();
+        } catch (IOException ex) {
+            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             list1 = hf.readHomeTransaction();
         } catch (IOException ex) {
@@ -125,12 +125,12 @@ public class TransactionController {
         List<Transaction> list1 = new ArrayList<Transaction>();
         List<Transaction> list2 = new ArrayList<Transaction>();
         HomeTransactionFile hf = new HomeTransactionFile();
-//        LandTransactionFile lf = new LandTransactionFile();
-//        try {
-//            list = lf.readLandTransaction();
-//        } catch (IOException ex) {
-//            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        LandTransactionFile lf = new LandTransactionFile();
+        try {
+            list = lf.readLandTransaction();
+        } catch (IOException ex) {
+            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             list1 = hf.readHomeTransaction();
         } catch (IOException ex) {
@@ -161,12 +161,12 @@ public class TransactionController {
         List<Transaction> list1 = new ArrayList<Transaction>();
         List<Transaction> list2 = new ArrayList<Transaction>();
         HomeTransactionFile hf = new HomeTransactionFile();
-//        LandTransactionFile lf = new LandTransactionFile();
-//        try {
-//            list = lf.readLandTransaction();
-//        } catch (IOException ex) {
-//            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        LandTransactionFile lf = new LandTransactionFile();
+        try {
+            list = lf.readLandTransaction();
+        } catch (IOException ex) {
+            Logger.getLogger(TransactionController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         try {
             list1 = hf.readHomeTransaction();
         } catch (IOException ex) {
